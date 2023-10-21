@@ -1,4 +1,5 @@
 import 'package:applogin/pages/home_page.dart';
+import 'package:applogin/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,7 @@ class AppLogin extends StatelessWidget {
       theme: ThemeData(
           primarySwatch: Colors.red,
           textTheme: GoogleFonts.quicksandTextTheme()),
-      home: const HomePage(),
+      home: const LoginPage(),
     );
   }
 }
